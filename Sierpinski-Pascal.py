@@ -1,6 +1,5 @@
-from math import floor, ceil
-
 import ctypes
+from math import ceil
 from time import sleep
 
 import pygame
@@ -16,11 +15,7 @@ pygame.font.init()
 finished = False
 display = pygame.display.set_mode(WINDOW_SIZE)
 
-RED = (255, 0, 0)
 BLACK = (0, 0, 0)
-GREEN = (0, 255, 100)
-WHITE = (255, 255, 255)
-
 COLOR_LIST = [(242, 122, 80), (84, 91, 162), (252, 241, 73)]
 
 triangle = [[1]]
